@@ -6,11 +6,11 @@ import globs from "globs";
 import { matchAll } from "./helpers";
 import { BundleResult, FileRegistry, ImportData } from "./contracts";
 
-const IMPORT_PATTERN = /@import\s+['"](.+)['"];/g;
+const IMPORT_PATTERN = /@import\s+['"](.+)['"];?/g;
 const COMMENT_PATTERN = /\/\/.*$/gm;
 const MULTILINE_COMMENT_PATTERN = /\/\*[\s\S]*?\*\//g;
-const DEFAULT_FILE_EXTENSION = ".scss";
-const ALLOWED_FILE_EXTENSIONS = [".scss", ".css"];
+const DEFAULT_FILE_EXTENSION = ".styl";
+const ALLOWED_FILE_EXTENSIONS = [".styl", ".css"];
 const NODE_MODULES = "node_modules";
 const TILDE = "~";
 
