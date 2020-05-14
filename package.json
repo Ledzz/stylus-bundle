@@ -23,9 +23,9 @@
     "*.js",
     "!*.config.js"
   ],
-  "bugs": "https://github.com/Ledzz/stylus-bundle/issues",
-  "repository": "Ledzz/stylus-bundle",
-  "homepage": "https://github.com/Ledzz/stylus-bundle",
+  "bugs": "https://github.com/TechnokratosDev/stylus-bundle",
+  "repository": "TechnokratosDev/stylus-bundle",
+  "homepage": "https://github.com/TechnokratosDev/stylus-bundle",
   "license": "MIT",
   "devDependencies": {
     "@reactway/eslint-config": "^1.0.0-alpha.2",
